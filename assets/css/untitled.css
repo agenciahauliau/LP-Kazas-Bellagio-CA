@@ -1,0 +1,195 @@
+.carousel-item img {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.carousel-indicators li:hover {
+  transform: scaleY(5);
+  transition: 0.3s ease;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background: var(--azul);
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover {
+  opacity: 1;
+}
+
+.tituloDiferenciais {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.tituloDiferenciais h1 {
+  color: white;
+}
+
+.imagensPlantas p {
+  margin: 10px 0;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--vermelho);
+}
+
+.tituloPlanta {
+  margin: 100px 0 20px;
+  text-align: center;
+  color: var(--vermelho);
+  font-weight: 800;
+}
+
+.textoTituloPlanta {
+  margin: 20px 0 100px;
+  text-align: center;
+  color: var(--vermelho);
+  font-weight: 500;
+}
+
+.implementacao .container * {
+  text-align: center;
+  color: white;
+}
+
+.implementacao .container {
+  padding: 100px 0;
+}
+
+.tituloFormulario {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 16px;
+  text-transform: uppercase;
+}
+
+.textoFormulario {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 16px;
+}
+
+.tituloFormulario h4 {
+  font-weight: 800;
+}
+
+.form-group.radioFormulario > * {
+  margin-right: 20px;
+}
+
+.form-group {
+  width: calc(100%/2);
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.plantas .implementaImg {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  .form-group {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-check-label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  #formulario {
+    bottom: -420PX;
+  }
+}
+
+@media (max-width: 576px) {
+  .tituloFormulario h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #formulario {
+    bottom: -450PX;
+  }
+}
+
+@media (max-width: 480px) {
+  .tituloFormulario h4 {
+    font-size: 12px;
+  }
+}
+
+.formulario.active {
+  bottom: 0 !important;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 640px) {
+  .tituloFormulario h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .implementacao .container h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .implementacao .container {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .tituloPlanta {
+    margin: 50px 0 20px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .textoTituloPlanta {
+    margin: 20px 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tituloDiferenciais h1 {
+    font-size: 25px;
+  }
+}
+
+.inicio video {
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
